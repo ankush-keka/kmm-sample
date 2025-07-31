@@ -8,7 +8,7 @@ plugins {
 
 
 // Add this line to define version
-version = "0.0.1-snapshot"
+version = "0.0.2-snapshot"
 val iOSBinaryName = "shared"
 /**
  * This task prepares Release Artifact for iOS XCFramework
