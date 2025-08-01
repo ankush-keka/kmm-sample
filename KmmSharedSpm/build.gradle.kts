@@ -8,7 +8,7 @@ plugins {
 
 
 // Add this line to define version
-version = "0.0.4-snapshot"
+version = "0.0.5-snapshot"
 val iOSBinaryName = "KmmSharedSpm"
 /**
  * This task prepares Release Artifact for iOS XCFramework

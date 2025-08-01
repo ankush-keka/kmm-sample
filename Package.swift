@@ -17,7 +17,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "KmmSharedSpm",
-            url: "https://github.com/ankush-keka/kmm-sample/releases/download/0.0.4-snapshot/KmmSharedSpm.xcframework.zip",
+            url: "https://github.com/ankush-keka/kmm-sample/releases/download/0.0.5-snapshot/KmmSharedSpm.xcframework.zip",
             checksum: "7a0be156c17c7469cceb2fbbd0b1777187247fb48b44c301ce7c41dc64e0a50c"
         ),
     ]
