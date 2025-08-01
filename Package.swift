@@ -2,14 +2,14 @@
 import PackageDescription
 
 let package = Package(
-    name: "shared",
+    name: "KmmSharedSpm",
     platforms: [
         .iOS(.v13)
     ],
     products: [
         .library(
-            name: "shared",
-            targets: ["shared"]),
+            name: "KmmSharedSpm",
+            targets: ["KmmSharedSpm"]),
     ],
     dependencies: [
         // no dependencies

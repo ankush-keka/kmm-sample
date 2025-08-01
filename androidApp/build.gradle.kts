@@ -37,7 +37,7 @@ android {
 }
 
 dependencies {
-    implementation(projects.shared)
+    implementation(projects.kmmSharedSpm)
     implementation(libs.compose.ui)
     implementation(libs.compose.ui.tooling.preview)
     implementation(libs.compose.material3)

@@ -8,8 +8,8 @@ plugins {
 
 
 // Add this line to define version
-version = "0.0.2-snapshot"
-val iOSBinaryName = "shared"
+version = "0.0.3-snapshot"
+val iOSBinaryName = "KmmSharedSpm"
 /**
  * This task prepares Release Artifact for iOS XCFramework
  * Updates Podspec, Package.swift, Carthage contents with version and checksum

@@ -16,4 +16,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "xcframework"
 include(":androidApp")
-include(":shared")
+include(":KmmSharedSpm")
