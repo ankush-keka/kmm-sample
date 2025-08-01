@@ -65,7 +65,7 @@ tasks.register<Zip>("packageDistribution") {
     description = "Package the XCFramework into a ZIP file"
 
     // Explicitly depend on assembleSharedReleaseXCFramework
-    dependsOn("assembleSharedReleaseXCFramework")
+    dependsOn("assembleKmmSharedSpmReleaseXCFramework")
 
     // Source XCFramework directory from the build output
     val xcfSourceDir = layout.buildDirectory.dir("XCFrameworks/release").get().asFile
