@@ -107,7 +107,7 @@ kotlin {
 
     iosTargets.forEach {
         it.binaries.framework {
-            baseName = "shared"
+            baseName = "KmmSharedSpm"
             isStatic = true
             xcf.add(this)
         }
